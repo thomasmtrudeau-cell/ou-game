@@ -4,6 +4,7 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
 
 console.log('Supabase URL configured:', supabaseUrl ? 'Yes' : 'No')
+console.log('Supabase Key configured:', supabaseAnonKey ? 'Yes (length: ' + supabaseAnonKey.length + ')' : 'No')
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
