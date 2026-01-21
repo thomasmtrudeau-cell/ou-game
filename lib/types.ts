@@ -1,53 +1,161 @@
-// Player and trade-related types
+// =============================================================================
+// SV ONBOARDING PROTOTYPE - Type Definitions
+// =============================================================================
 
-export type Position = 'QB' | 'RB' | 'WR' | 'TE';
+// Player levels
+export type PlayerLevel = "High School" | "College" | "MiLB" | "MLB";
 
-export type ScoringFormat = '1QB' | 'SF' | '2QB';
-export type PPRFormat = 'standard' | 'half' | 'full';
-export type TEPremium = 0 | 0.5 | 1.0 | 1.5;
-export type LeagueSize = 8 | 10 | 12 | 14;
+// Training budget tiers
+export type TrainingBudget = "$" | "$$" | "$$$";
 
+// Onboarding status
+export type OnboardingStatus = "not_started" | "in_progress" | "complete";
+
+// Task status
+export type TaskStatus = "pending" | "in_progress" | "complete";
+
+// Gear request status
+export type GearStatus = "pending" | "approved" | "shipped" | "delivered";
+
+// Four Pillars categories
+export type PillarType = "Physical" | "Mental" | "Technique" | "Nutrition";
+
+// Goal type
+export type GoalType = "player" | "sv";
+
+// Player record (matches players_sheet)
 export interface Player {
   id: string;
   name: string;
-  team: string;
-  position: Position;
-  age: number;
-  baseValue: number;
-  // For PPR adjustments - higher = more catches
-  receptionProfile?: 'low' | 'medium' | 'high';
+  email: string;
+  phone: string;
+  level: PlayerLevel;
+  position: string;
+  height: string;
+  weight: number;
+  ideal_weight: number;
+  sixty_time: string;
+  exit_velo: string;
+  arm_velo: string;
+  training_budget: TrainingBudget;
+  high_school: string;
+  travel_team: string;
+  facility: string;
+  agent_id: string;
+  onboarding_date: string;
+  onboarding_status: OnboardingStatus;
+  profile_image: string;
 }
 
-export interface DraftPick {
+// Agent record (matches agents_sheet)
+export interface Agent {
   id: string;
-  year: number;
-  round: 1 | 2 | 3 | 4;
-  originalOwner?: string;
+  name: string;
+  email: string;
+  phone: string;
+  role: string;
 }
 
-export interface LeagueSettings {
-  scoringFormat: ScoringFormat;
-  pprFormat: PPRFormat;
-  tePremium: TEPremium;
-  leagueSize: LeagueSize;
+// Goal record (matches goals_sheet)
+export interface Goal {
+  id: string;
+  player_id: string;
+  type: GoalType;
+  priority: number;
+  goal: string;
 }
 
-export interface TradeItem {
-  type: 'player' | 'pick';
-  player?: Player;
-  pick?: DraftPick;
-  adjustedValue: number;
+// Schedule record (matches schedule_sheet)
+export interface ScheduleDay {
+  id: string;
+  player_id: string;
+  day: string;
+  lift: boolean;
+  practice: boolean;
+  training: boolean;
 }
 
-export interface TradeSide {
-  items: TradeItem[];
-  totalValue: number;
+// College preference record (matches college_preferences_sheet)
+export interface CollegePreference {
+  id: string;
+  player_id: string;
+  rank: number;
+  school: string;
+  contacted: boolean;
 }
 
-// Draft pick base values (will be adjusted by league settings)
-export const DRAFT_PICK_VALUES: Record<number, Record<number, number>> = {
-  // year -> round -> value
-  2025: { 1: 85, 2: 55, 3: 30, 4: 15 },
-  2026: { 1: 75, 2: 48, 3: 25, 4: 12 },
-  2027: { 1: 65, 2: 40, 3: 20, 4: 10 },
-};
+// Four Pillars item record (matches four_pillars_sheet)
+export interface FourPillarsItem {
+  id: string;
+  player_id: string;
+  pillar: PillarType;
+  item: string;
+  need: boolean;
+  complete: boolean;
+  notes: string;
+}
+
+// Task record (matches tasks_sheet)
+export interface Task {
+  id: string;
+  player_id: string;
+  task_name: string;
+  category: string;
+  due_date: string;
+  status: TaskStatus;
+}
+
+// File record (matches files_sheet)
+export interface FileRecord {
+  id: string;
+  player_id: string;
+  file_name: string;
+  category: string;
+  upload_date: string;
+  link: string;
+}
+
+// Gear request record (matches gear_requests_sheet)
+export interface GearRequest {
+  id: string;
+  player_id: string;
+  item_name: string;
+  size: string;
+  quantity: number;
+  status: GearStatus;
+  request_date: string;
+}
+
+// Note record (matches notes_sheet)
+export interface Note {
+  id: string;
+  player_id: string;
+  date: string;
+  author: string;
+  note: string;
+}
+
+// Four Pillars progress summary
+export interface PillarProgress {
+  pillar: string;
+  completed: number;
+  total: number;
+  percentage: number;
+}
+
+// Onboarding progress summary
+export interface OnboardingProgress {
+  completed: number;
+  total: number;
+  percentage: number;
+}
+
+// Navigation view types
+export type ViewType = "dashboard" | "pillars" | "vault" | "tasks" | "locker" | "profile";
+
+// App context state
+export interface AppState {
+  currentPlayerId: string;
+  currentView: ViewType;
+  isAdmin: boolean;
+}

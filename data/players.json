@@ -1,57 +1,7580 @@
 {
   "players": [
-    { "id": "mahomes", "name": "Patrick Mahomes", "team": "KC", "position": "QB", "age": 29, "baseValue": 100, "receptionProfile": "low" },
-    { "id": "allen", "name": "Josh Allen", "team": "BUF", "position": "QB", "age": 28, "baseValue": 98, "receptionProfile": "low" },
-    { "id": "burrow", "name": "Joe Burrow", "team": "CIN", "position": "QB", "age": 28, "baseValue": 95, "receptionProfile": "low" },
-    { "id": "lamar", "name": "Lamar Jackson", "team": "BAL", "position": "QB", "age": 28, "baseValue": 92, "receptionProfile": "low" },
-    { "id": "stroud", "name": "CJ Stroud", "team": "HOU", "position": "QB", "age": 23, "baseValue": 94, "receptionProfile": "low" },
-    { "id": "caleb", "name": "Caleb Williams", "team": "CHI", "position": "QB", "age": 23, "baseValue": 88, "receptionProfile": "low" },
-    { "id": "hurts", "name": "Jalen Hurts", "team": "PHI", "position": "QB", "age": 26, "baseValue": 85, "receptionProfile": "low" },
-    { "id": "herbert", "name": "Justin Herbert", "team": "LAC", "position": "QB", "age": 26, "baseValue": 82, "receptionProfile": "low" },
-    { "id": "love", "name": "Jordan Love", "team": "GB", "position": "QB", "age": 26, "baseValue": 80, "receptionProfile": "low" },
-    { "id": "daniels", "name": "Jayden Daniels", "team": "WAS", "position": "QB", "age": 24, "baseValue": 86, "receptionProfile": "low" },
-
-    { "id": "chase", "name": "Ja'Marr Chase", "team": "CIN", "position": "WR", "age": 24, "baseValue": 98, "receptionProfile": "high" },
-    { "id": "jefferson", "name": "Justin Jefferson", "team": "MIN", "position": "WR", "age": 25, "baseValue": 97, "receptionProfile": "high" },
-    { "id": "cd", "name": "CeeDee Lamb", "team": "DAL", "position": "WR", "age": 25, "baseValue": 95, "receptionProfile": "high" },
-    { "id": "hill", "name": "Tyreek Hill", "team": "MIA", "position": "WR", "age": 31, "baseValue": 72, "receptionProfile": "high" },
-    { "id": "ajb", "name": "AJ Brown", "team": "PHI", "position": "WR", "age": 27, "baseValue": 85, "receptionProfile": "high" },
-    { "id": "amon", "name": "Amon-Ra St. Brown", "team": "DET", "position": "WR", "age": 25, "baseValue": 88, "receptionProfile": "high" },
-    { "id": "wilson", "name": "Garrett Wilson", "team": "NYJ", "position": "WR", "age": 24, "baseValue": 86, "receptionProfile": "high" },
-    { "id": "waddle", "name": "Jaylen Waddle", "team": "MIA", "position": "WR", "age": 26, "baseValue": 78, "receptionProfile": "high" },
-    { "id": "dhop", "name": "DeAndre Hopkins", "team": "KC", "position": "WR", "age": 32, "baseValue": 45, "receptionProfile": "high" },
-    { "id": "olave", "name": "Chris Olave", "team": "NO", "position": "WR", "age": 24, "baseValue": 80, "receptionProfile": "high" },
-    { "id": "jamo", "name": "Jameson Williams", "team": "DET", "position": "WR", "age": 23, "baseValue": 75, "receptionProfile": "medium" },
-    { "id": "nabers", "name": "Malik Nabers", "team": "NYG", "position": "WR", "age": 21, "baseValue": 88, "receptionProfile": "high" },
-    { "id": "harrison", "name": "Marvin Harrison Jr", "team": "ARI", "position": "WR", "age": 22, "baseValue": 85, "receptionProfile": "high" },
-    { "id": "addison", "name": "Jordan Addison", "team": "MIN", "position": "WR", "age": 23, "baseValue": 72, "receptionProfile": "medium" },
-    { "id": "aiyuk", "name": "Brandon Aiyuk", "team": "SF", "position": "WR", "age": 26, "baseValue": 70, "receptionProfile": "medium" },
-
-    { "id": "henry", "name": "Derrick Henry", "team": "BAL", "position": "RB", "age": 31, "baseValue": 55, "receptionProfile": "low" },
-    { "id": "taylor", "name": "Jonathan Taylor", "team": "IND", "position": "RB", "age": 25, "baseValue": 80, "receptionProfile": "medium" },
-    { "id": "bijan", "name": "Bijan Robinson", "team": "ATL", "position": "RB", "age": 23, "baseValue": 92, "receptionProfile": "high" },
-    { "id": "breece", "name": "Breece Hall", "team": "NYJ", "position": "RB", "age": 23, "baseValue": 88, "receptionProfile": "high" },
-    { "id": "gibbs", "name": "Jahmyr Gibbs", "team": "DET", "position": "RB", "age": 22, "baseValue": 90, "receptionProfile": "high" },
-    { "id": "chubb", "name": "Nick Chubb", "team": "CLE", "position": "RB", "age": 29, "baseValue": 48, "receptionProfile": "low" },
-    { "id": "jacobs", "name": "Josh Jacobs", "team": "GB", "position": "RB", "age": 27, "baseValue": 58, "receptionProfile": "medium" },
-    { "id": "cook", "name": "James Cook", "team": "BUF", "position": "RB", "age": 25, "baseValue": 70, "receptionProfile": "medium" },
-    { "id": "achane", "name": "De'Von Achane", "team": "MIA", "position": "RB", "age": 23, "baseValue": 82, "receptionProfile": "high" },
-    { "id": "dell", "name": "Tank Dell", "team": "HOU", "position": "WR", "age": 25, "baseValue": 68, "receptionProfile": "high" },
-    { "id": "kyren", "name": "Kyren Williams", "team": "LAR", "position": "RB", "age": 24, "baseValue": 65, "receptionProfile": "medium" },
-    { "id": "etienne", "name": "Travis Etienne", "team": "JAX", "position": "RB", "age": 25, "baseValue": 62, "receptionProfile": "medium" },
-    { "id": "pollard", "name": "Tony Pollard", "team": "TEN", "position": "RB", "age": 27, "baseValue": 52, "receptionProfile": "medium" },
-    { "id": "jk", "name": "JK Dobbins", "team": "LAC", "position": "RB", "age": 26, "baseValue": 50, "receptionProfile": "low" },
-    { "id": "white", "name": "Rachaad White", "team": "TB", "position": "RB", "age": 25, "baseValue": 55, "receptionProfile": "high" },
-
-    { "id": "kelce", "name": "Travis Kelce", "team": "KC", "position": "TE", "age": 35, "baseValue": 45, "receptionProfile": "high" },
-    { "id": "laporta", "name": "Sam LaPorta", "team": "DET", "position": "TE", "age": 24, "baseValue": 78, "receptionProfile": "high" },
-    { "id": "bowers", "name": "Brock Bowers", "team": "LV", "position": "TE", "age": 22, "baseValue": 85, "receptionProfile": "high" },
-    { "id": "pitts", "name": "Kyle Pitts", "team": "ATL", "position": "TE", "age": 24, "baseValue": 68, "receptionProfile": "high" },
-    { "id": "goedert", "name": "Dallas Goedert", "team": "PHI", "position": "TE", "age": 29, "baseValue": 45, "receptionProfile": "high" },
-    { "id": "andrews", "name": "Mark Andrews", "team": "BAL", "position": "TE", "age": 29, "baseValue": 50, "receptionProfile": "high" },
-    { "id": "kittle", "name": "George Kittle", "team": "SF", "position": "TE", "age": 31, "baseValue": 48, "receptionProfile": "high" },
-    { "id": "hockenson", "name": "TJ Hockenson", "team": "MIN", "position": "TE", "age": 27, "baseValue": 52, "receptionProfile": "high" },
-    { "id": "mcbride", "name": "Trey McBride", "team": "ARI", "position": "TE", "age": 25, "baseValue": 62, "receptionProfile": "high" },
-    { "id": "njoku", "name": "David Njoku", "team": "CLE", "position": "TE", "age": 28, "baseValue": 40, "receptionProfile": "high" }
+    {
+      "id": "wr-7564",
+      "name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 100,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 1.5,
+        "change14d": 3,
+        "change30d": 5,
+        "changeYoY": 12
+      }
+    },
+    {
+      "id": "qb-4984",
+      "name": "Josh Allen",
+      "team": "BUF",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 98,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1,
+        "change14d": 0.8,
+        "change30d": 1.5,
+        "changeYoY": -2
+      }
+    },
+    {
+      "id": "wr-6794",
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 98,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.8,
+        "change14d": 1.5,
+        "change30d": 2,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "qb-6770",
+      "name": "Joe Burrow",
+      "team": "CIN",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 95,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.3,
+        "change14d": -0.5,
+        "change30d": 1,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "qb-4881",
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 92,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 2.5,
+        "change14d": 3,
+        "change30d": 5,
+        "changeYoY": 8
+      }
+    },
+    {
+      "id": "wr-6786",
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 92,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -2,
+        "change30d": -3,
+        "changeYoY": 8
+      }
+    },
+    {
+      "id": "qb-6797",
+      "name": "Justin Herbert",
+      "team": "LAC",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 90,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -2,
+        "change30d": -3,
+        "changeYoY": -10
+      }
+    },
+    {
+      "id": "rb-9509",
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 90,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 3,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "rb-8155",
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 88,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -2,
+        "change30d": -3,
+        "changeYoY": -8
+      }
+    },
+    {
+      "id": "qb-9758",
+      "name": "C.J. Stroud",
+      "team": "HOU",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 88,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": 0.5,
+        "change7d": 2,
+        "change14d": 3.5,
+        "change30d": 8,
+        "changeYoY": 45
+      }
+    },
+    {
+      "id": "qb-11566",
+      "name": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 86,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": 0.8,
+        "change7d": 3.5,
+        "change14d": 8,
+        "change30d": 15,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "wr-5859",
+      "name": "A.J. Brown",
+      "team": "PHI",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 85,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "qb-6904",
+      "name": "Jalen Hurts",
+      "team": "PHI",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 85,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": 3
+      }
+    },
+    {
+      "id": "rb-9221",
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 85,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 4,
+        "change30d": 8,
+        "changeYoY": 20
+      }
+    },
+    {
+      "id": "qb-6804",
+      "name": "Jordan Love",
+      "team": "GB",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 82,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0,
+        "change7d": 1.5,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 35
+      }
+    },
+    {
+      "id": "wr-7547",
+      "name": "Amon-Ra St. Brown",
+      "team": "DET",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 82,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1.5,
+        "change14d": 2.5,
+        "change30d": 4,
+        "changeYoY": 10
+      }
+    },
+    {
+      "id": "wr-9493",
+      "name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 82,
+      "receptionProfile": "high",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 4,
+        "change30d": 8,
+        "changeYoY": 35
+      }
+    },
+    {
+      "id": "qb-1979",
+      "name": "Blake Bortles",
+      "team": "NO",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 79,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-8002",
+      "name": "Shane Buechele",
+      "team": "BUF",
+      "position": "QB",
+      "age": 28,
+      "baseValue": 79,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-9230",
+      "name": "Tanner McKee",
+      "team": "PHI",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 79,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-7538",
+      "name": "Zach Wilson",
+      "team": "MIA",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 78,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-7569",
+      "name": "Nico Collins",
+      "team": "HOU",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 78,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 4,
+        "change30d": 8,
+        "changeYoY": 25
+      }
+    },
+    {
+      "id": "qb-7583",
+      "name": "Sam Ehlinger",
+      "team": "DEN",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 78,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-7585",
+      "name": "Davis Mills",
+      "team": "HOU",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 78,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-9226",
+      "name": "De'Von Achane",
+      "team": "MIA",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 78,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.4,
+        "change7d": 2.5,
+        "change14d": 5,
+        "change30d": 12,
+        "changeYoY": 35
+      }
+    },
+    {
+      "id": "qb-7610",
+      "name": "Trey Lance",
+      "team": "LAC",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 76,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-9998",
+      "name": "Hendon Hooker",
+      "team": "NYJ",
+      "position": "QB",
+      "age": 28,
+      "baseValue": 76,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7525",
+      "name": "DeVonta Smith",
+      "team": "PHI",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 75,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "qb-8159",
+      "name": "Desmond Ridder",
+      "team": "GB",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 75,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-11256",
+      "name": "Tyson Bagent",
+      "team": "CHI",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 75,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-11560",
+      "name": "Caleb Williams",
+      "team": "CHI",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 75,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -2,
+        "change14d": -5,
+        "change30d": -10,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "qb-5845",
+      "name": "Dwayne Haskins",
+      "team": "PIT",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 74,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-7757",
+      "name": "Ben Skowronek",
+      "team": "PIT",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 74,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-8160",
+      "name": "Kenny Pickett",
+      "team": "LV",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 74,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-10232",
+      "name": "Michael Wilson",
+      "team": "ARI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 74,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-10860",
+      "name": "Malik Cunningham",
+      "team": "DET",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 74,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10863",
+      "name": "A.T. Perry",
+      "team": "DEN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 74,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11257",
+      "name": "Shedrick Jackson",
+      "team": "LV",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 74,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-12545",
+      "name": "Tyler Shough",
+      "team": "NO",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 74,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-4017",
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 73,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-4922",
+      "name": "Garrett Scantling",
+      "team": "ATL",
+      "position": "WR",
+      "age": null,
+      "baseValue": 73,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-4972",
+      "name": "Mason Rudolph",
+      "team": "PIT",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 73,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7587",
+      "name": "Dyami Brown",
+      "team": "JAX",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 73,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-8161",
+      "name": "Malik Willis",
+      "team": "GB",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 73,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-9504",
+      "name": "Kayshon Boutte",
+      "team": "NE",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 73,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12267",
+      "name": "Qadir Ismail",
+      "team": "CHI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 73,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12809",
+      "name": "Mac Dalena",
+      "team": "NYJ",
+      "position": "WR",
+      "age": null,
+      "baseValue": 73,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-5127",
+      "name": "Kyle Allen",
+      "team": "DET",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-6037",
+      "name": "Brett Rypien",
+      "team": "MIN",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-6136",
+      "name": "Jarrett Stidham",
+      "team": "DEN",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6813",
+      "name": "Jonathan Taylor",
+      "team": "IND",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -3,
+        "change30d": -5,
+        "changeYoY": -15
+      }
+    },
+    {
+      "id": "wr-6920",
+      "name": "Isaiah Hodgins",
+      "team": "NYG",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 72,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7526",
+      "name": "Jaylen Waddle",
+      "team": "MIA",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 72,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -1,
+        "change30d": -3,
+        "changeYoY": -8
+      }
+    },
+    {
+      "id": "wr-8112",
+      "name": "Drake London",
+      "team": "ATL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1.5,
+        "change14d": 3,
+        "change30d": 6,
+        "changeYoY": 18
+      }
+    },
+    {
+      "id": "rb-8138",
+      "name": "James Cook",
+      "team": "BUF",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 72,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 5,
+        "change30d": 10,
+        "changeYoY": 25
+      }
+    },
+    {
+      "id": "qb-8183",
+      "name": "Brock Purdy",
+      "team": "SF",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 72,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-9488",
+      "name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 72,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-7049",
+      "name": "Jauan Jennings",
+      "team": "SF",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 71,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8200",
+      "name": "Kevin Austin",
+      "team": "NO",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 71,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11802",
+      "name": "Tejhaun Palmer",
+      "team": "ARI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 71,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12909",
+      "name": "Eli Pancol",
+      "team": "IND",
+      "position": "WR",
+      "age": null,
+      "baseValue": 71,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-6803",
+      "name": "Brandon Aiyuk",
+      "team": "SF",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 70,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -3,
+        "change30d": -5,
+        "changeYoY": -10
+      }
+    },
+    {
+      "id": "wr-6819",
+      "name": "Michael Pittman",
+      "team": "IND",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6895",
+      "name": "Quintez Cephus",
+      "team": "HOU",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8125",
+      "name": "Calvin Austin",
+      "team": "PIT",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-8137",
+      "name": "George Pickens",
+      "team": "DAL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 70,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "wr-8144",
+      "name": "Chris Olave",
+      "team": "NO",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1.5,
+        "change14d": -3,
+        "change30d": -5,
+        "changeYoY": -12
+      }
+    },
+    {
+      "id": "wr-8147",
+      "name": "John Metchie",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-8176",
+      "name": "Danny Gray",
+      "team": "PHI",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-8235",
+      "name": "Samori Toure",
+      "team": "NO",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-8413",
+      "name": "Chris Oladokun",
+      "team": "KC",
+      "position": "QB",
+      "age": 28,
+      "baseValue": 70,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-10983",
+      "name": "Sean Clifford",
+      "team": "CIN",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 70,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11046",
+      "name": "Colton Dowell",
+      "team": "SF",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11139",
+      "name": "Elijah Cooks",
+      "team": "NO",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11940",
+      "name": "JaQuae Jackson",
+      "team": "LAC",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12526",
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 70,
+      "receptionProfile": "high",
+      "yearsToPeak": 4,
+      "history": {
+        "change24h": 0.5,
+        "change7d": 3,
+        "change14d": 8,
+        "change30d": 15,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "wr-5638",
+      "name": "Shaq Roland",
+      "team": "CHI",
+      "position": "WR",
+      "age": null,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-6185",
+      "name": "Easton Stick",
+      "team": "ATL",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 69,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7357",
+      "name": "Dan Chisena",
+      "team": "CAR",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-8162",
+      "name": "Sam Howell",
+      "team": "PHI",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 69,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-9494",
+      "name": "Marvin Mims",
+      "team": "DEN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-10228",
+      "name": "Charlie Jones",
+      "team": "CIN",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10444",
+      "name": "Cedric Tillman",
+      "team": "CLE",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11034",
+      "name": "Jalen Brooks",
+      "team": "ARI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12935",
+      "name": "Jakobie Keeney-James",
+      "team": "GB",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 69,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-6801",
+      "name": "Tee Higgins",
+      "team": "CIN",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 68,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "wr-7559",
+      "name": "Ihmir Smith-Marsette",
+      "team": "ARI",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-8130",
+      "name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 5,
+        "change30d": 10,
+        "changeYoY": 30
+      }
+    },
+    {
+      "id": "rb-8151",
+      "name": "Kenneth Walker",
+      "team": "SEA",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 68,
+      "receptionProfile": "low",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1.5,
+        "change14d": 3,
+        "change30d": 5,
+        "changeYoY": -3
+      }
+    },
+    {
+      "id": "wr-8801",
+      "name": "Dennis Houston",
+      "team": "TB",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-9502",
+      "name": "Tank Dell",
+      "team": "HOU",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1.5,
+        "change14d": 3,
+        "change30d": 6,
+        "changeYoY": 15
+      }
+    },
+    {
+      "id": "wr-9756",
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 15
+      }
+    },
+    {
+      "id": "wr-10218",
+      "name": "Xavier Hutchinson",
+      "team": "HOU",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-10857",
+      "name": "Stetson Bennett",
+      "team": "LAR",
+      "position": "QB",
+      "age": 28,
+      "baseValue": 68,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10867",
+      "name": "Jake Bobo",
+      "team": "SEA",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11941",
+      "name": "Isaiah Wooden",
+      "team": "CLE",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 68,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-3050",
+      "name": "Myles White",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6960",
+      "name": "Tyler Johnson",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8253",
+      "name": "Deven Thompkins",
+      "team": "ATL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-11558",
+      "name": "Sam Hartman",
+      "team": "WAS",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 67,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11623",
+      "name": "Jordan Whittington",
+      "team": "LAR",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12383",
+      "name": "John Jiles",
+      "team": "NE",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12863",
+      "name": "Andrew Armstrong",
+      "team": "KC",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 67,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-4943",
+      "name": "Sam Darnold",
+      "team": "SEA",
+      "position": "QB",
+      "age": 28,
+      "baseValue": 66,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6290",
+      "name": "Scotty Miller",
+      "team": "PIT",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 66,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7436",
+      "name": "Mason Kinsey",
+      "team": "TEN",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 66,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8527",
+      "name": "Dareke Young",
+      "team": "SEA",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 66,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-11065",
+      "name": "Adrian Martinez",
+      "team": "SF",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 66,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-11292",
+      "name": "Tommy DeVito",
+      "team": "NE",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 66,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11783",
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 66,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-3294",
+      "name": "Dak Prescott",
+      "team": "DAL",
+      "position": "QB",
+      "age": 32,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -2,
+        "change30d": -5,
+        "changeYoY": -15
+      }
+    },
+    {
+      "id": "wr-5846",
+      "name": "DK Metcalf",
+      "team": "PIT",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 65,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "qb-5854",
+      "name": "Drew Lock",
+      "team": "SEA",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6847",
+      "name": "Devin Duvernay",
+      "team": "CHI",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 65,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-7143",
+      "name": "Ben DiNucci",
+      "team": "DEN",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-7523",
+      "name": "Trevor Lawrence",
+      "team": "JAX",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": -2,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "rb-7543",
+      "name": "Travis Etienne",
+      "team": "JAX",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -1,
+        "change14d": -2,
+        "change30d": -5,
+        "changeYoY": -12
+      }
+    },
+    {
+      "id": "wr-8148",
+      "name": "Jameson Williams",
+      "team": "DET",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change24h": 0.4,
+        "change7d": 3,
+        "change14d": 8,
+        "change30d": 15,
+        "changeYoY": 40
+      }
+    },
+    {
+      "id": "rb-8150",
+      "name": "Kyren Williams",
+      "team": "LAR",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 65,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 20
+      }
+    },
+    {
+      "id": "wr-8414",
+      "name": "Britain Covey",
+      "team": "PHI",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 65,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9997",
+      "name": "Zay Flowers",
+      "team": "BAL",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 65,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "wr-11620",
+      "name": "Rome Odunze",
+      "team": "CHI",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 65,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "wr-11911",
+      "name": "Jeshaun Jones",
+      "team": "MIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 65,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-7562",
+      "name": "Tutu Atwell",
+      "team": "LAR",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-8208",
+      "name": "Tyler Badie",
+      "team": "DEN",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 64,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8861",
+      "name": "Irvin Charles",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9486",
+      "name": "Dontayvion Wicks",
+      "team": "GB",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-9505",
+      "name": "Deuce Vaughn",
+      "team": "DEN",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 64,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11157",
+      "name": "Brycen Tremayne",
+      "team": "CAR",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11168",
+      "name": "Xavier Smith",
+      "team": "LAR",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-11588",
+      "name": "Jawhar Jordan",
+      "team": "HOU",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 64,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11638",
+      "name": "Ricky Pearsall",
+      "team": "SF",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12520",
+      "name": "Xavier Restrepo",
+      "team": "TEN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12532",
+      "name": "Ja'Corey Brooks",
+      "team": "WAS",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12547",
+      "name": "Kyle Williams",
+      "team": "NE",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12925",
+      "name": "Jamaal Pritchett",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 64,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-6271",
+      "name": "Olamide Zaccheaus",
+      "team": "CHI",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6427",
+      "name": "Ashton Dulin",
+      "team": "IND",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10225",
+      "name": "Jonathan Mingo",
+      "team": "DAL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11299",
+      "name": "Zavier Scott",
+      "team": "MIN",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 63,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11306",
+      "name": "Xavier Gipson",
+      "team": "NYG",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11626",
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11629",
+      "name": "Devontez Walker",
+      "team": "BAL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11630",
+      "name": "Roman Wilson",
+      "team": "PIT",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11773",
+      "name": "Keilan Robinson",
+      "team": "NYJ",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 63,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11921",
+      "name": "Xavier Weaver",
+      "team": "ARI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12540",
+      "name": "Chimere Dike",
+      "team": "TEN",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12541",
+      "name": "Dont'e Thornton",
+      "team": "LV",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-13264",
+      "name": "Dohnte Meyers",
+      "team": "CIN",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 63,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-3362",
+      "name": "Jeff Driskel",
+      "team": "WAS",
+      "position": "QB",
+      "age": 32,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-3976",
+      "name": "Mitchell Trubisky",
+      "team": "BUF",
+      "position": "QB",
+      "age": 31,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4034",
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.3,
+        "change7d": -2,
+        "change14d": -5,
+        "change30d": -10,
+        "changeYoY": -25
+      }
+    },
+    {
+      "id": "rb-5004",
+      "name": "Ito Smith",
+      "team": "DAL",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7537",
+      "name": "Jaret Patterson",
+      "team": "LAC",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7607",
+      "name": "Michael Carter",
+      "team": "ARI",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8756",
+      "name": "Brandon Johnson",
+      "team": "DEN",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9489",
+      "name": "Justin Shorter",
+      "team": "LV",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11474",
+      "name": "Dylan Drummond",
+      "team": "ATL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-11583",
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": -0.5,
+        "change7d": -3,
+        "change14d": -8,
+        "change30d": -15,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "wr-11615",
+      "name": "Ainias Smith",
+      "team": "CAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11624",
+      "name": "Xavier Worthy",
+      "team": "KC",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4,
+      "history": {
+        "change24h": 0.3,
+        "change7d": 2,
+        "change14d": 5,
+        "change30d": 10,
+        "changeYoY": null
+      }
+    },
+    {
+      "id": "wr-11633",
+      "name": "Jamari Thrash",
+      "team": "CLE",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11644",
+      "name": "Cody Schrader",
+      "team": "DEN",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11806",
+      "name": "Casey Washington",
+      "team": "ATL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11963",
+      "name": "Chris Collier",
+      "team": "LV",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 62,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-12475",
+      "name": "Ricky White",
+      "team": "SEA",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12478",
+      "name": "Nick Nash",
+      "team": "WAS",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12542",
+      "name": "Efton Chism",
+      "team": "NE",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12888",
+      "name": "Dalen Cambre",
+      "team": "NYG",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 62,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-5938",
+      "name": "Lil'Jordan Humphrey",
+      "team": "DEN",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-6111",
+      "name": "Jake Browning",
+      "team": "CIN",
+      "position": "QB",
+      "age": 29,
+      "baseValue": 61,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-6147",
+      "name": "Clayton Thorson",
+      "team": "NYG",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 61,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-7521",
+      "name": "Chris Blair",
+      "team": "ATL",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9224",
+      "name": "Chase Brown",
+      "team": "CIN",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 61,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9501",
+      "name": "DeMario Douglas",
+      "team": "NE",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-10213",
+      "name": "Tre Tucker",
+      "team": "LV",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12503",
+      "name": "Isaiah Bond",
+      "team": "CLE",
+      "position": "WR",
+      "age": 21,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "wr-12634",
+      "name": "Jordan Watkins",
+      "team": "SF",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 61,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-4464",
+      "name": "Nick Mullens",
+      "team": "JAX",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-4983",
+      "name": "DJ Moore",
+      "team": "CHI",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "qb-5806",
+      "name": "John Wolford",
+      "team": "MIN",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5927",
+      "name": "Terry McLaurin",
+      "team": "WAS",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1,
+        "change14d": 3,
+        "change30d": 5,
+        "changeYoY": 8
+      }
+    },
+    {
+      "id": "rb-6175",
+      "name": "Kerrith Whyte",
+      "team": "GB",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-8157",
+      "name": "Bailey Zappe",
+      "team": "NYJ",
+      "position": "QB",
+      "age": 26,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-8223",
+      "name": "Velus Jones",
+      "team": "SEA",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10222",
+      "name": "Jayden Reed",
+      "team": "GB",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 3,
+        "change30d": 12
+      }
+    },
+    {
+      "id": "te-10236",
+      "name": "Dalton Kincaid",
+      "team": "BUF",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 15
+      }
+    },
+    {
+      "id": "rb-11370",
+      "name": "Chris Brooks",
+      "team": "GB",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-11564",
+      "name": "Drake Maye",
+      "team": "NE",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "rb-11651",
+      "name": "Isaac Guerendo",
+      "team": "SF",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-11655",
+      "name": "Tyrone Tracy",
+      "team": "NYG",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11969",
+      "name": "Xavier Johnson",
+      "team": "CIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12474",
+      "name": "Woody Marks",
+      "team": "HOU",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 60,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-12483",
+      "name": "Jack Bech",
+      "team": "LV",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12799",
+      "name": "Bryson Green",
+      "team": "ARI",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12803",
+      "name": "Luke Grimm",
+      "team": "LAC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12946",
+      "name": "Dontae Fleming",
+      "team": "MIN",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 60,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-7596",
+      "name": "Elijah Moore",
+      "team": "DEN",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-8013",
+      "name": "Tim Jones",
+      "team": "JAX",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8076",
+      "name": "Michael Bandy",
+      "team": "DEN",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8180",
+      "name": "Jalen Nailor",
+      "team": "MIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-8195",
+      "name": "Ronnie Rivers",
+      "team": "LAR",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 59,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11959",
+      "name": "Bryce Oliver",
+      "team": "TEN",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12210",
+      "name": "Cole Burgess",
+      "team": "PIT",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-12688",
+      "name": "Cam Miller",
+      "team": "MIA",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 59,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-13074",
+      "name": "Isaiah Neyor",
+      "team": "GB",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 59,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-3357",
+      "name": "Brandon Allen",
+      "team": "TEN",
+      "position": "QB",
+      "age": 33,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-4937",
+      "name": "Al Riles",
+      "team": "IND",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-5223",
+      "name": "Caleb Scott",
+      "team": "TEN",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-5850",
+      "name": "Josh Jacobs",
+      "team": "GB",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 3
+      }
+    },
+    {
+      "id": "qb-6768",
+      "name": "Tua Tagovailoa",
+      "team": "MIA",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -3,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "rb-6938",
+      "name": "Cam Akers",
+      "team": "SEA",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7865",
+      "name": "Brandon Smith",
+      "team": "PIT",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-8129",
+      "name": "Dameon Pierce",
+      "team": "KC",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-8136",
+      "name": "Rachaad White",
+      "team": "TB",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "rb-8207",
+      "name": "Tyler Goodson",
+      "team": "IND",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-10221",
+      "name": "Ronnie Bell",
+      "team": "NO",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-10234",
+      "name": "Derius Davis",
+      "team": "LAC",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11421",
+      "name": "Ryan Miller",
+      "team": "NYG",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11610",
+      "name": "Malik Washington",
+      "team": "MIA",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11635",
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": 5,
+        "change30d": 18
+      }
+    },
+    {
+      "id": "rb-11647",
+      "name": "Kimani Vidal",
+      "team": "LAC",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11815",
+      "name": "Cornelius Johnson",
+      "team": "BAL",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11943",
+      "name": "Michael Wiley",
+      "team": "TB",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12479",
+      "name": "Ja'Quinden Jackson",
+      "team": "JAX",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-12485",
+      "name": "Tez Johnson",
+      "team": "TB",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12499",
+      "name": "Elic Ayomanor",
+      "team": "TEN",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-12524",
+      "name": "Shedeur Sanders",
+      "team": "CLE",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-12538",
+      "name": "Brady Cook",
+      "team": "NYJ",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12544",
+      "name": "LeQuint Allen",
+      "team": "JAX",
+      "position": "RB",
+      "age": 21,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-12705",
+      "name": "Graham Mertz",
+      "team": "HOU",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12756",
+      "name": "Stephen Gosnell",
+      "team": "BUF",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12772",
+      "name": "Courtney Jackson",
+      "team": "SEA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12860",
+      "name": "Theo Wease",
+      "team": "MIA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-12898",
+      "name": "Seth Henigan",
+      "team": "IND",
+      "position": "QB",
+      "age": 22,
+      "baseValue": 58,
+      "receptionProfile": "medium",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "wr-13001",
+      "name": "Mario Williams",
+      "team": "LAR",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-13003",
+      "name": "Tru Edwards",
+      "team": "LAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13189",
+      "name": "Luke Floriea",
+      "team": "CLE",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 58,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-4924",
+      "name": "Zach Terrell",
+      "team": "BAL",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-5781",
+      "name": "Malik Turner",
+      "team": "SF",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5880",
+      "name": "Parris Campbell",
+      "team": "DAL",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6588",
+      "name": "Tom Kennedy",
+      "team": "DET",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6927",
+      "name": "Quez Watkins",
+      "team": "PHI",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7496",
+      "name": "Nick Westbrook-Ikhine",
+      "team": "MIA",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7618",
+      "name": "Micah Simon",
+      "team": "CAR",
+      "position": "WR",
+      "age": null,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-8117",
+      "name": "Jalen Tolbert",
+      "team": "DAL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-10226",
+      "name": "Andrei Iosivas",
+      "team": "CIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11056",
+      "name": "Jared Wayne",
+      "team": "HOU",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11068",
+      "name": "Mitch Tinsley",
+      "team": "CIN",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-11569",
+      "name": "Jarquez Hunter",
+      "team": "LAR",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11573",
+      "name": "Frank Gore",
+      "team": "BUF",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11582",
+      "name": "Carson Steele",
+      "team": "PHI",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-12171",
+      "name": "British Brooks",
+      "team": "HOU",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-12457",
+      "name": "Jaydon Blue",
+      "team": "DAL",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-12775",
+      "name": "Max Brosmer",
+      "team": "MIN",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12797",
+      "name": "Ahmani Marshall",
+      "team": "CLE",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 57,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-13208",
+      "name": "Kyrese Rowan",
+      "team": "DEN",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 57,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-5113",
+      "name": "Cedrick Wilson",
+      "team": "MIA",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5744",
+      "name": "Eldridge Massington",
+      "team": "NO",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-7595",
+      "name": "Tylan Wallace",
+      "team": "BAL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-7746",
+      "name": "Austin Trammell",
+      "team": "JAX",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9487",
+      "name": "Parker Washington",
+      "team": "JAX",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-11648",
+      "name": "Kedon Slovis",
+      "team": "ARI",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 56,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-11859",
+      "name": "John Rhys Plumlee",
+      "team": "PIT",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 56,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12484",
+      "name": "Jayden Higgins",
+      "team": "HOU",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12527",
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 56,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12656",
+      "name": "Robbie Ouzts",
+      "team": "SEA",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 56,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12907",
+      "name": "Quentin Skinner",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 56,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-1373",
+      "name": "Geno Smith",
+      "team": "LV",
+      "position": "QB",
+      "age": 35,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-1466",
+      "name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "age": 36,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -3,
+        "change30d": -5,
+        "changeYoY": -20
+      }
+    },
+    {
+      "id": "qb-1837",
+      "name": "Jimmy Garoppolo",
+      "team": "LAR",
+      "position": "QB",
+      "age": 34,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-2449",
+      "name": "Stefon Diggs",
+      "team": "NE",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.5,
+        "change7d": -3,
+        "change14d": -8,
+        "change30d": -15,
+        "changeYoY": -35
+      }
+    },
+    {
+      "id": "qb-3163",
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "age": 31,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "qb-4574",
+      "name": "Cooper Rush",
+      "team": "BAL",
+      "position": "QB",
+      "age": 32,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-4992",
+      "name": "Dante Pettis",
+      "team": "NO",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5374",
+      "name": "Justin Watson",
+      "team": "HOU",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5872",
+      "name": "Deebo Samuel",
+      "team": "WAS",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "rb-5967",
+      "name": "Tony Pollard",
+      "team": "TEN",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -1,
+        "change14d": -2,
+        "change30d": -5,
+        "changeYoY": -15
+      }
+    },
+    {
+      "id": "te-7553",
+      "name": "Kyle Pitts",
+      "team": "ATL",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -1,
+        "change30d": -3,
+        "changeYoY": -15
+      }
+    },
+    {
+      "id": "rb-7611",
+      "name": "Rhamondre Stevenson",
+      "team": "NE",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -8
+      }
+    },
+    {
+      "id": "rb-8205",
+      "name": "Isiah Pacheco",
+      "team": "KC",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 55,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -3,
+        "change30d": -12
+      }
+    },
+    {
+      "id": "rb-8408",
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9227",
+      "name": "Israel Abanikanda",
+      "team": "DAL",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-9490",
+      "name": "Tyler Scott",
+      "team": "LAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-9508",
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 5,
+        "changeYoY": 10
+      }
+    },
+    {
+      "id": "wr-11210",
+      "name": "Malik Heath",
+      "team": "ATL",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-11557",
+      "name": "Joe Milton",
+      "team": "DAL",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11994",
+      "name": "Kameron Johnson",
+      "team": "TB",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12467",
+      "name": "Jordan James",
+      "team": "SF",
+      "position": "RB",
+      "age": 21,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12514",
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12761",
+      "name": "Jordan Moore",
+      "team": "CIN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12777",
+      "name": "Joaquin Davis",
+      "team": "MIN",
+      "position": "WR",
+      "age": null,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12938",
+      "name": "Jackson Meeks",
+      "team": "DET",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 55,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "rb-12939",
+      "name": "Anthony Tyus",
+      "team": "CAR",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 55,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-4936",
+      "name": "Skyler Howard",
+      "team": "SEA",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 54,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-6677",
+      "name": "Joe Forson",
+      "team": "KC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-6866",
+      "name": "KJ Hill",
+      "team": "LAC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-7842",
+      "name": "Luke Farrell",
+      "team": "SF",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8885",
+      "name": "Tucker Fisk",
+      "team": "LAC",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9506",
+      "name": "Sean Tucker",
+      "team": "TB",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-10219",
+      "name": "Chris Rodriguez",
+      "team": "WAS",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 54,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11608",
+      "name": "Isaiah Williams",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-11618",
+      "name": "Jalen McMillan",
+      "team": "TB",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11729",
+      "name": "Sione Vaki",
+      "team": "DET",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-12045",
+      "name": "Jack Westover",
+      "team": "NE",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-12492",
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-13075",
+      "name": "Myles Price",
+      "team": "MIN",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13150",
+      "name": "Darius Cooper",
+      "team": "PHI",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13202",
+      "name": "Dalevon Campbell",
+      "team": "LAC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 54,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-3155",
+      "name": "Laquon Treadwell",
+      "team": "IND",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-4683",
+      "name": "Aaron Bailey",
+      "team": "BAL",
+      "position": "QB",
+      "age": null,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-4926",
+      "name": "Nick Schuessler",
+      "team": "PIT",
+      "position": "QB",
+      "age": null,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-6386",
+      "name": "Alex Bachman",
+      "team": "LV",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7716",
+      "name": "John Bates",
+      "team": "WAS",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8170",
+      "name": "James Mitchell",
+      "team": "CAR",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-8214",
+      "name": "Cole Turner",
+      "team": "MIA",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-8219",
+      "name": "Jelani Woods",
+      "team": "NYJ",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-10223",
+      "name": "Eric Gray",
+      "team": "NYG",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-10224",
+      "name": "Brayden Willis",
+      "team": "SF",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-11384",
+      "name": "Owen Wright",
+      "team": "TB",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-11562",
+      "name": "Spencer Rattler",
+      "team": "NO",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11568",
+      "name": "Blake Watson",
+      "team": "TEN",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-12509",
+      "name": "Tre' Harris",
+      "team": "LAC",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-12522",
+      "name": "Cam Ward",
+      "team": "TEN",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-12792",
+      "name": "Garrett Greene",
+      "team": "TB",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12826",
+      "name": "Ulysses Bentley",
+      "team": "IND",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 53,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-12848",
+      "name": "Josh Kelly",
+      "team": "HOU",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 53,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-2216",
+      "name": "Mike Evans",
+      "team": "TB",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -10
+      }
+    },
+    {
+      "id": "te-2944",
+      "name": "Matt LaCosse",
+      "team": "NE",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-3198",
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "age": 32,
+      "baseValue": 52,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.5,
+        "change7d": 3,
+        "change14d": 5,
+        "change30d": 10,
+        "changeYoY": 8
+      }
+    },
+    {
+      "id": "te-4033",
+      "name": "David Njoku",
+      "team": "CLE",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 1,
+        "change14d": 2,
+        "change30d": 3,
+        "changeYoY": 5
+      }
+    },
+    {
+      "id": "rb-4035",
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "qb-4892",
+      "name": "Baker Mayfield",
+      "team": "TB",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "wr-6154",
+      "name": "David Sills",
+      "team": "ATL",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-6850",
+      "name": "Harrison Bryant",
+      "team": "HOU",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7567",
+      "name": "Kenneth Gainwell",
+      "team": "PIT",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9220",
+      "name": "Evan Hull",
+      "team": "NO",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-9500",
+      "name": "Josh Downs",
+      "team": "IND",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "rb-9511",
+      "name": "Keaton Mitchell",
+      "team": "BAL",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-11113",
+      "name": "Joel Wilson",
+      "team": "TEN",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11237",
+      "name": "Jacob Saylors",
+      "team": "DET",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-11304",
+      "name": "E.J. Jenkins",
+      "team": "PHI",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-11435",
+      "name": "Emanuel Wilson",
+      "team": "GB",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-11586",
+      "name": "Blake Corum",
+      "team": "LAR",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-11593",
+      "name": "Brevyn Spann-Ford",
+      "team": "DAL",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11646",
+      "name": "Jalen Coker",
+      "team": "CAR",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-11654",
+      "name": "Dante Miller",
+      "team": "NYG",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-12374",
+      "name": "Brenden Bates",
+      "team": "CLE",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12533",
+      "name": "Jacory Croskey-Merritt",
+      "team": "WAS",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-12718",
+      "name": "Konata Mumpfield",
+      "team": "LAR",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12738",
+      "name": "Phil Mafah",
+      "team": "DAL",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12746",
+      "name": "JP Richardson",
+      "team": "CHI",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12787",
+      "name": "Josh Williams",
+      "team": "TB",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12868",
+      "name": "Montrell Johnson",
+      "team": "CAR",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 52,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-13079",
+      "name": "Jahdae Walker",
+      "team": "CHI",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 52,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-1984",
+      "name": "Allen Hurns",
+      "team": "MIA",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-2307",
+      "name": "Marcus Mariota",
+      "team": "WAS",
+      "position": "QB",
+      "age": 32,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6699",
+      "name": "Gunner Olszewski",
+      "team": "NYG",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-6869",
+      "name": "Adam Trautman",
+      "team": "DEN",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6957",
+      "name": "James Proche",
+      "team": "TEN",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7535",
+      "name": "Hunter Long",
+      "team": "JAX",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-8254",
+      "name": "Julius Chestnut",
+      "team": "TEN",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-10220",
+      "name": "Will Mallory",
+      "team": "IND",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-11617",
+      "name": "Malachi Corley",
+      "team": "CLE",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-11627",
+      "name": "Troy Franklin",
+      "team": "DEN",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-11821",
+      "name": "Tahj Washington",
+      "team": "MIA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12489",
+      "name": "RJ Harvey",
+      "team": "DEN",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12491",
+      "name": "Corey Kiner",
+      "team": "ARI",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-12500",
+      "name": "Quinn Ewers",
+      "team": "MIA",
+      "position": "QB",
+      "age": 22,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "wr-12501",
+      "name": "Matthew Golden",
+      "team": "GB",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-12536",
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12732",
+      "name": "Dominic Lovett",
+      "team": "DET",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-12776",
+      "name": "Connor Bazelak",
+      "team": "TB",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12908",
+      "name": "Chandler Brayboy",
+      "team": "JAX",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13034",
+      "name": "Tyrone Broden",
+      "team": "SEA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13120",
+      "name": "Jacoby Jones",
+      "team": "WAS",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13124",
+      "name": "Jeremiah Webb",
+      "team": "NE",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-13145",
+      "name": "ShunDerrick Powell",
+      "team": "KC",
+      "position": "RB",
+      "age": null,
+      "baseValue": 51,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-13199",
+      "name": "Montorie Foster",
+      "team": "SEA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 51,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-2152",
+      "name": "Teddy Bridgewater",
+      "team": "TB",
+      "position": "QB",
+      "age": 33,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4018",
+      "name": "Joe Mixon",
+      "team": "HOU",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.2,
+        "change7d": 1.5,
+        "change14d": 3,
+        "change30d": 5,
+        "changeYoY": 10
+      }
+    },
+    {
+      "id": "wr-4082",
+      "name": "Curtis Samuel",
+      "team": "BUF",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-5844",
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -10
+      }
+    },
+    {
+      "id": "te-6001",
+      "name": "Drew Sample",
+      "team": "CIN",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6790",
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -2,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "qb-7262",
+      "name": "Jalen Morton",
+      "team": "IND",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-8107",
+      "name": "Nikola Kalinic",
+      "team": "CHI",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-8154",
+      "name": "Brian Robinson",
+      "team": "SF",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9510",
+      "name": "Lew Nichols",
+      "team": "PIT",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-11201",
+      "name": "Blake Whiteheart",
+      "team": "CLE",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-11565",
+      "name": "J.J. McCarthy",
+      "team": "MIN",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "rb-11574",
+      "name": "Dylan Laube",
+      "team": "LV",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11625",
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12519",
+      "name": "Luther Burden",
+      "team": "CHI",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-12788",
+      "name": "Will Sheppard",
+      "team": "GB",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12829",
+      "name": "Coleman Owen",
+      "team": "IND",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-13047",
+      "name": "Jacardia Wright",
+      "team": "SEA",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 50,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-13101",
+      "name": "Gage Larvadain",
+      "team": "CLE",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 50,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-6451",
+      "name": "Stephen Carlson",
+      "team": "CHI",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7002",
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7204",
+      "name": "Reggie Gilliam",
+      "team": "BUF",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 49,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-10871",
+      "name": "Luke Schoonmaker",
+      "team": "DAL",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-11082",
+      "name": "Ben Sims",
+      "team": "MIN",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-11280",
+      "name": "Brady Russell",
+      "team": "SEA",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-11631",
+      "name": "Brian Thomas",
+      "team": "JAX",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-11637",
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-11851",
+      "name": "Carter Bradley",
+      "team": "JAX",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 49,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12504",
+      "name": "Kaleb Johnson",
+      "team": "PIT",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 49,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-12508",
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "age": 22,
+      "baseValue": 49,
+      "receptionProfile": "medium",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "rb-12531",
+      "name": "Trevor Etienne",
+      "team": "CAR",
+      "position": "RB",
+      "age": 21,
+      "baseValue": 49,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12539",
+      "name": "Arian Smith",
+      "team": "NYJ",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12743",
+      "name": "Junior Bergen",
+      "team": "SF",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 49,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-4037",
+      "name": "Chris Godwin",
+      "team": "TB",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-4039",
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -2,
+        "change30d": -5,
+        "changeYoY": -25
+      }
+    },
+    {
+      "id": "te-5012",
+      "name": "Mark Andrews",
+      "team": "BAL",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "te-5022",
+      "name": "Dallas Goedert",
+      "team": "PHI",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "te-6964",
+      "name": "Sean McKeon",
+      "team": "IND",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7106",
+      "name": "Lawrence Cager",
+      "team": "WAS",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7438",
+      "name": "Kristian Wilkerson",
+      "team": "BUF",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-8116",
+      "name": "Pierre Strong",
+      "team": "GB",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 48,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8167",
+      "name": "Christian Watson",
+      "team": "GB",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 48,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 0,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "wr-8921",
+      "name": "Maurice Alexander",
+      "team": "CHI",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-10227",
+      "name": "Payne Durham",
+      "team": "TB",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11577",
+      "name": "Will Shipley",
+      "team": "PHI",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 48,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-12469",
+      "name": "Dylan Sampson",
+      "team": "CLE",
+      "position": "RB",
+      "age": 21,
+      "baseValue": 48,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-12494",
+      "name": "Kyle McCord",
+      "team": "GB",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 48,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-12496",
+      "name": "Tai Felton",
+      "team": "MIN",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-12757",
+      "name": "Hal Presley",
+      "team": "TEN",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-13011",
+      "name": "Brennan Presley",
+      "team": "LAR",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 48,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-3668",
+      "name": "Joshua Perkins",
+      "team": "NYJ",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6828",
+      "name": "A.J. Dillon",
+      "team": "PHI",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7828",
+      "name": "Noah Gray",
+      "team": "KC",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-8423",
+      "name": "Brittain Brown",
+      "team": "CHI",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8698",
+      "name": "Jake Tonges",
+      "team": "SF",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-10231",
+      "name": "Elijah Higgins",
+      "team": "ARI",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11579",
+      "name": "Audric Estime",
+      "team": "NO",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12062",
+      "name": "Cam Grandy",
+      "team": "CIN",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12356",
+      "name": "Jabari Small",
+      "team": "DET",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "qb-12470",
+      "name": "Riley Leonard",
+      "team": "IND",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-12510",
+      "name": "Jalen Milroe",
+      "team": "SEA",
+      "position": "QB",
+      "age": 23,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "wr-12523",
+      "name": "Jimmy Horn",
+      "team": "CAR",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12534",
+      "name": "Kyle Monangai",
+      "team": "CHI",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 47,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-12699",
+      "name": "LaJohntay Wester",
+      "team": "BAL",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-12849",
+      "name": "Traeshon Holden",
+      "team": "DAL",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12865",
+      "name": "AJ Henning",
+      "team": "MIA",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12971",
+      "name": "Ke'Shawn Williams",
+      "team": "CIN",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 47,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-3309",
+      "name": "Wendell Smallwood",
+      "team": "WAS",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4866",
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5121",
+      "name": "Braxton Berrios",
+      "team": "HOU",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-6826",
+      "name": "Cole Kmet",
+      "team": "CHI",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-6865",
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7103",
+      "name": "Tavien Feaster",
+      "team": "ARI",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-7531",
+      "name": "Feleipe Franks",
+      "team": "ATL",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7536",
+      "name": "Quintin Morris",
+      "team": "JAX",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-12462",
+      "name": "Damien Martinez",
+      "team": "GB",
+      "position": "RB",
+      "age": 21,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12472",
+      "name": "Raheim Sanders",
+      "team": "CLE",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-12486",
+      "name": "Dillon Gabriel",
+      "team": "CLE",
+      "position": "QB",
+      "age": 25,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12505",
+      "name": "Jalen Royals",
+      "team": "KC",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "qb-12511",
+      "name": "Will Howard",
+      "team": "PIT",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-12773",
+      "name": "DJ Uiagalelei",
+      "team": "LAC",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12928",
+      "name": "Amar Johnson",
+      "team": "LAC",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 46,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-13173",
+      "name": "Jimmy Holiday",
+      "team": "KC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 46,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "qb-1166",
+      "name": "Kirk Cousins",
+      "team": "ATL",
+      "position": "QB",
+      "age": 37,
+      "baseValue": 45,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "wr-4040",
+      "name": "JuJu Smith-Schuster",
+      "team": "KC",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4988",
+      "name": "Nick Chubb",
+      "team": "HOU",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 45,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1.5,
+        "change14d": -3,
+        "change30d": -8,
+        "changeYoY": -40
+      }
+    },
+    {
+      "id": "te-4995",
+      "name": "Ian Thomas",
+      "team": "LV",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5154",
+      "name": "Trent Sherfield",
+      "team": "NE",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-5892",
+      "name": "David Montgomery",
+      "team": "DET",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 45,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": 0.1,
+        "change7d": 0.5,
+        "change14d": 1,
+        "change30d": 2,
+        "changeYoY": -5
+      }
+    },
+    {
+      "id": "te-5973",
+      "name": "Josh Oliver",
+      "team": "MIN",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-6016",
+      "name": "Dax Raymond",
+      "team": "PIT",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6783",
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": -2,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "te-7600",
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "rb-7608",
+      "name": "Khalil Herbert",
+      "team": "NYJ",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8041",
+      "name": "Shane Zylstra",
+      "team": "DET",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8089",
+      "name": "Sal Cannella",
+      "team": "CLE",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8110",
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-8134",
+      "name": "Khalil Shakir",
+      "team": "BUF",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 3,
+        "change30d": 12
+      }
+    },
+    {
+      "id": "te-8177",
+      "name": "Grant Calcaterra",
+      "team": "PHI",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8210",
+      "name": "Chig Okonkwo",
+      "team": "TEN",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-8849",
+      "name": "Tanner Conner",
+      "team": "NYG",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-8917",
+      "name": "KaVontae Turpin",
+      "team": "DAL",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8924",
+      "name": "Thomas Odukoya",
+      "team": "NE",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-9225",
+      "name": "Tank Bigsby",
+      "team": "PHI",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 45,
+      "receptionProfile": "low",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "rb-11584",
+      "name": "Bucky Irving",
+      "team": "TB",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 45,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-11621",
+      "name": "Brenden Rice",
+      "team": "LV",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12455",
+      "name": "Brashard Smith",
+      "team": "KC",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 45,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-12535",
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "position": "WR",
+      "age": 23,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-12933",
+      "name": "Caden Prieskorn",
+      "team": "CLE",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "wr-13179",
+      "name": "Ja'seem Reed",
+      "team": "CAR",
+      "position": "WR",
+      "age": 22,
+      "baseValue": 45,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "te-3333",
+      "name": "Temarrick Hemingway",
+      "team": "WAS",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-3868",
+      "name": "Jalen Richard",
+      "team": "LV",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 44,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-7048",
+      "name": "Benny LeMay",
+      "team": "CLE",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 44,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-7050",
+      "name": "Josiah Deguara",
+      "team": "ARI",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7075",
+      "name": "Charlie Woerner",
+      "team": "ATL",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-10212",
+      "name": "Josh Whyle",
+      "team": "GB",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-11595",
+      "name": "Jared Wiley",
+      "team": "KC",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-12490",
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 44,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-12543",
+      "name": "Tahj Brooks",
+      "team": "CIN",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 44,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-12765",
+      "name": "Keleki Latu",
+      "team": "BUF",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-12897",
+      "name": "Nathan Carter",
+      "team": "ATL",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 44,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-13261",
+      "name": "Layne Pryor",
+      "team": "HOU",
+      "position": "TE",
+      "age": null,
+      "baseValue": 44,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-6931",
+      "name": "DeeJay Dallas",
+      "team": "JAX",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 43,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-7602",
+      "name": "Kylen Granson",
+      "team": "PHI",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 43,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8145",
+      "name": "Jeremy Ruckert",
+      "team": "NYJ",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 43,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-10214",
+      "name": "Davis Allen",
+      "team": "LAR",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 43,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12113",
+      "name": "Thomas Yassmin",
+      "team": "LAC",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 43,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-12471",
+      "name": "DJ Giddens",
+      "team": "IND",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 43,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12959",
+      "name": "Bryce Pierre",
+      "team": "CAR",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 43,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-4066",
+      "name": "Evan Engram",
+      "team": "DEN",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "rb-4199",
+      "name": "Aaron Jones",
+      "team": "MIN",
+      "position": "RB",
+      "age": 31,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-5045",
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 42,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 3
+      }
+    },
+    {
+      "id": "te-7694",
+      "name": "Tommy Tremble",
+      "team": "CAR",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-8121",
+      "name": "Romeo Doubs",
+      "team": "GB",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 42,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-8227",
+      "name": "Teagan Quitoriano",
+      "team": "ATL",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-8228",
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "te-10210",
+      "name": "Cameron Latu",
+      "team": "PHI",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11199",
+      "name": "Emari Demercado",
+      "team": "ARI",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 42,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-11371",
+      "name": "Julian Hill",
+      "team": "MIA",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-11575",
+      "name": "Ray Davis",
+      "team": "BUF",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 42,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 3,
+        "change30d": 12
+      }
+    },
+    {
+      "id": "te-12357",
+      "name": "David Martin-Robinson",
+      "team": "TEN",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 42,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-6039",
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 41,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-6843",
+      "name": "Albert Okwuegbunam",
+      "team": "LV",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 41,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8127",
+      "name": "Charlie Kolar",
+      "team": "BAL",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 41,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "rb-11186",
+      "name": "Carlos Washington",
+      "team": "ATL",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 41,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-11643",
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 41,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12389",
+      "name": "Hayden Rucci",
+      "team": "SF",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 41,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12515",
+      "name": "Donovan Edwards",
+      "team": "MIA",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 41,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12941",
+      "name": "Bryson Nesbit",
+      "team": "MIN",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 41,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-12984",
+      "name": "CJ Dippre",
+      "team": "NE",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 41,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-4263",
+      "name": "Elijah McGuire",
+      "team": "KC",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-7090",
+      "name": "Darnell Mooney",
+      "team": "ATL",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "te-8131",
+      "name": "Isaiah Likely",
+      "team": "BAL",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "te-8181",
+      "name": "Connor Heyward",
+      "team": "PIT",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-8583",
+      "name": "Stone Smartt",
+      "team": "NYJ",
+      "position": "TE",
+      "age": 27,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-9480",
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-11433",
+      "name": "Nate Adkins",
+      "team": "DEN",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-11598",
+      "name": "Tanner McLachlan",
+      "team": "LAC",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-12070",
+      "name": "McCallan Castles",
+      "team": "GB",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 1
+    },
+    {
+      "id": "te-12079",
+      "name": "Treyton Welch",
+      "team": "NO",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-12493",
+      "name": "Oronde Gadsden",
+      "team": "LAC",
+      "position": "TE",
+      "age": 22,
+      "baseValue": 40,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "rb-12495",
+      "name": "Ollie Gordon",
+      "team": "MIA",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12507",
+      "name": "Omarion Hampton",
+      "team": "LAC",
+      "position": "RB",
+      "age": 22,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "rb-12516",
+      "name": "Kalel Mullings",
+      "team": "TEN",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-12529",
+      "name": "TreVeyon Henderson",
+      "team": "NE",
+      "position": "RB",
+      "age": 23,
+      "baseValue": 40,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-7529",
+      "name": "Gary Brightwell",
+      "team": "CIN",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 39,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-12517",
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "age": 21,
+      "baseValue": 39,
+      "receptionProfile": "high",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "te-12518",
+      "name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 39,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-12851",
+      "name": "Rivaldo Fairweather",
+      "team": "ARI",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 39,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "wr-1479",
+      "name": "Keenan Allen",
+      "team": "LAC",
+      "position": "WR",
+      "age": 33,
+      "baseValue": 38,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "rb-7021",
+      "name": "Rico Dowdle",
+      "team": "CAR",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 38,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 5,
+        "change30d": 20
+      }
+    },
+    {
+      "id": "rb-7594",
+      "name": "Chuba Hubbard",
+      "team": "CAR",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 38,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "te-8111",
+      "name": "Cade Otton",
+      "team": "TB",
+      "position": "TE",
+      "age": 26,
+      "baseValue": 38,
+      "receptionProfile": "high",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 2,
+        "change30d": 10
+      }
+    },
+    {
+      "id": "wr-8119",
+      "name": "Jahan Dotson",
+      "team": "PHI",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 38,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": -3,
+        "change30d": -15
+      }
+    },
+    {
+      "id": "wr-8676",
+      "name": "Rashid Shaheed",
+      "team": "SEA",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 38,
+      "receptionProfile": "low",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 2,
+        "change30d": 10
+      }
+    },
+    {
+      "id": "wr-9754",
+      "name": "Quentin Johnston",
+      "team": "LAC",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 38,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": 0,
+        "change30d": 3
+      }
+    },
+    {
+      "id": "te-11820",
+      "name": "Devin Culp",
+      "team": "TB",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 38,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-4490",
+      "name": "Wyatt Houston",
+      "team": "CAR",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 37,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-4930",
+      "name": "Franko House",
+      "team": "CHI",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 37,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "rb-7720",
+      "name": "Kene Nwangwu",
+      "team": "NYJ",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 37,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-8088",
+      "name": "Kalif Jackson",
+      "team": "MIA",
+      "position": "TE",
+      "age": null,
+      "baseValue": 37,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "rb-6012",
+      "name": "Travis Homer",
+      "team": "CHI",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 36,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6144",
+      "name": "Trayveon Williams",
+      "team": "CLE",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 36,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-11245",
+      "name": "Patrick Murtagh",
+      "team": "DEN",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 36,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-11596",
+      "name": "Ben Sinnott",
+      "team": "WAS",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 36,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-13210",
+      "name": "Drake Dabney",
+      "team": "GB",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 36,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "qb-421",
+      "name": "Matthew Stafford",
+      "team": "LAR",
+      "position": "QB",
+      "age": 37,
+      "baseValue": 35,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "wr-1426",
+      "name": "DeAndre Hopkins",
+      "team": "BAL",
+      "position": "WR",
+      "age": 33,
+      "baseValue": 35,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "wr-2374",
+      "name": "Tyler Lockett",
+      "team": "LV",
+      "position": "WR",
+      "age": 33,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.1,
+        "change7d": -0.5,
+        "change14d": -2,
+        "change30d": -5,
+        "changeYoY": -20
+      }
+    },
+    {
+      "id": "wr-4950",
+      "name": "Christian Kirk",
+      "team": "HOU",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "te-5001",
+      "name": "Dalton Schultz",
+      "team": "HOU",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-7149",
+      "name": "Tommy Stevens",
+      "team": "NYG",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "wr-7571",
+      "name": "Rashod Bateman",
+      "team": "BAL",
+      "position": "WR",
+      "age": 26,
+      "baseValue": 35,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 0,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "rb-8132",
+      "name": "Tyler Allgeier",
+      "team": "ATL",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 35,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "rb-8139",
+      "name": "Zamir White",
+      "team": "LV",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 35,
+      "receptionProfile": "low",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "qb-9228",
+      "name": "Bryce Young",
+      "team": "CAR",
+      "position": "QB",
+      "age": 24,
+      "baseValue": 35,
+      "receptionProfile": "medium",
+      "yearsToPeak": 3,
+      "history": {
+        "change7d": -5,
+        "change30d": -15
+      }
+    },
+    {
+      "id": "wr-9497",
+      "name": "Jalin Hyatt",
+      "team": "NYG",
+      "position": "WR",
+      "age": 24,
+      "baseValue": 35,
+      "receptionProfile": "medium",
+      "yearsToPeak": 4,
+      "history": {
+        "change7d": -2,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "te-11597",
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12487",
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
+      "age": 22,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "te-12658",
+      "name": "Jackson Hawes",
+      "team": "BUF",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-13249",
+      "name": "Thomas Gordon",
+      "team": "CHI",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 35,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-4744",
+      "name": "Barrett Burns",
+      "team": "BAL",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 34,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-12473",
+      "name": "Mitchell Evans",
+      "team": "CAR",
+      "position": "TE",
+      "age": 22,
+      "baseValue": 34,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "te-12502",
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 34,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-12506",
+      "name": "Harold Fannin",
+      "team": "CLE",
+      "position": "TE",
+      "age": 21,
+      "baseValue": 34,
+      "receptionProfile": "high",
+      "yearsToPeak": 6
+    },
+    {
+      "id": "te-13116",
+      "name": "Tre Watson",
+      "team": "KC",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 34,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-11592",
+      "name": "Erick All",
+      "team": "CIN",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 33,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-12735",
+      "name": "Caleb Lohner",
+      "team": "DEN",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 33,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-12901",
+      "name": "Patrick Herbert",
+      "team": "JAX",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 33,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-13032",
+      "name": "Marshall Lang",
+      "team": "NE",
+      "position": "TE",
+      "age": null,
+      "baseValue": 33,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-13121",
+      "name": "Ben Yurosek",
+      "team": "MIN",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 33,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-4144",
+      "name": "Jonnu Smith",
+      "team": "PIT",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 32,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 3,
+        "change30d": 15
+      }
+    },
+    {
+      "id": "wr-5848",
+      "name": "Marquise Brown",
+      "team": "KC",
+      "position": "WR",
+      "age": 28,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "rb-6130",
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "position": "RB",
+      "age": 28,
+      "baseValue": 32,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-8135",
+      "name": "Treylon Burks",
+      "team": "WAS",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 32,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "te-9481",
+      "name": "Luke Musgrave",
+      "team": "GB",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 32,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "te-11599",
+      "name": "Cade Stover",
+      "team": "HOU",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-12480",
+      "name": "Moliki Matavao",
+      "team": "NO",
+      "position": "TE",
+      "age": 22,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 5
+    },
+    {
+      "id": "te-12725",
+      "name": "Luke Lachey",
+      "team": "HOU",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-13110",
+      "name": "Zach Horton",
+      "team": "DET",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-13122",
+      "name": "Carter Runyon",
+      "team": "LV",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 32,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-11603",
+      "name": "AJ Barner",
+      "team": "SEA",
+      "position": "TE",
+      "age": 23,
+      "baseValue": 31,
+      "receptionProfile": "high",
+      "yearsToPeak": 4
+    },
+    {
+      "id": "te-11942",
+      "name": "Colson Yankoff",
+      "team": "WAS",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 31,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "te-12154",
+      "name": "Messiah Swinson",
+      "team": "GB",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 31,
+      "receptionProfile": "high",
+      "yearsToPeak": 2
+    },
+    {
+      "id": "qb-96",
+      "name": "Aaron Rodgers",
+      "team": "PIT",
+      "position": "QB",
+      "age": 42,
+      "baseValue": 30,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -5,
+        "change30d": -20
+      }
+    },
+    {
+      "id": "rb-2749",
+      "name": "Raheem Mostert",
+      "team": "LV",
+      "position": "RB",
+      "age": 33,
+      "baseValue": 30,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change24h": -0.2,
+        "change7d": -1,
+        "change14d": -3,
+        "change30d": -8,
+        "changeYoY": -30
+      }
+    },
+    {
+      "id": "wr-5947",
+      "name": "Jakobi Meyers",
+      "team": "JAX",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 30,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-13013",
+      "name": "Mark Redman",
+      "team": "LAR",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 30,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "te-13151",
+      "name": "Nick Kallerup",
+      "team": "SEA",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 30,
+      "receptionProfile": "high",
+      "yearsToPeak": 3
+    },
+    {
+      "id": "wr-3269",
+      "name": "Chris Moore",
+      "team": "WAS",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 29,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3214",
+      "name": "Hunter Henry",
+      "team": "NE",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 28,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "rb-4098",
+      "name": "Kareem Hunt",
+      "team": "KC",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 28,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 2,
+        "change30d": 10
+      }
+    },
+    {
+      "id": "te-5857",
+      "name": "Noah Fant",
+      "team": "CIN",
+      "position": "TE",
+      "age": 28,
+      "baseValue": 28,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-8142",
+      "name": "Alec Pierce",
+      "team": "IND",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 28,
+      "receptionProfile": "low",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "te-9482",
+      "name": "Michael Mayer",
+      "team": "LV",
+      "position": "TE",
+      "age": 24,
+      "baseValue": 28,
+      "receptionProfile": "high",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "rb-11570",
+      "name": "Rasheen Ali",
+      "team": "BAL",
+      "position": "RB",
+      "age": 24,
+      "baseValue": 28,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": 2,
+        "change30d": 8
+      }
+    },
+    {
+      "id": "wr-3200",
+      "name": "Sterling Shepard",
+      "team": "TB",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 27,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-3286",
+      "name": "Demarcus Robinson",
+      "team": "SF",
+      "position": "WR",
+      "age": 31,
+      "baseValue": 26,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-2334",
+      "name": "Phillip Dorsett",
+      "team": "LV",
+      "position": "WR",
+      "age": 33,
+      "baseValue": 25,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4993",
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 25,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "te-5906",
+      "name": "Dawson Knox",
+      "team": "BUF",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 25,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "wr-4274",
+      "name": "David Moore",
+      "team": "CAR",
+      "position": "WR",
+      "age": 31,
+      "baseValue": 24,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4914",
+      "name": "Glen Coffee",
+      "team": "SF",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 24,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4219",
+      "name": "Jeremy McNichols",
+      "team": "WAS",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 23,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6323",
+      "name": "Andrew Beck",
+      "team": "NYJ",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 23,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-827",
+      "name": "Tyrod Taylor",
+      "team": "NYJ",
+      "position": "QB",
+      "age": 36,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-1604",
+      "name": "Nick Williams",
+      "team": "DEN",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 22,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-2197",
+      "name": "Brandin Cooks",
+      "team": "BUF",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "wr-4351",
+      "name": "Tim Patrick",
+      "team": "JAX",
+      "position": "WR",
+      "age": 32,
+      "baseValue": 22,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-5000",
+      "name": "Chase Edmonds",
+      "team": "WAS",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-6149",
+      "name": "Darius Slayton",
+      "team": "NYG",
+      "position": "WR",
+      "age": 29,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-8172",
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "rb-8230",
+      "name": "Ty Chandler",
+      "team": "MIN",
+      "position": "RB",
+      "age": 27,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "qb-10866",
+      "name": "Aidan O'Connell",
+      "team": "LV",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 22,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 0,
+        "change30d": 3
+      }
+    },
+    {
+      "id": "rb-11439",
+      "name": "Jaleel McLaughlin",
+      "team": "DEN",
+      "position": "RB",
+      "age": 25,
+      "baseValue": 22,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 1,
+        "change30d": 5
+      }
+    },
+    {
+      "id": "qb-19",
+      "name": "Joe Flacco",
+      "team": "CIN",
+      "position": "QB",
+      "age": 41,
+      "baseValue": 21,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-331",
+      "name": "Philip Rivers",
+      "team": "IND",
+      "position": "QB",
+      "age": 44,
+      "baseValue": 20,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-2133",
+      "name": "Davante Adams",
+      "team": "LAR",
+      "position": "WR",
+      "age": 33,
+      "baseValue": 20,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-6659",
+      "name": "Craig Reynolds",
+      "team": "NE",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 20,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-138",
+      "name": "Ben Roethlisberger",
+      "team": "PIT",
+      "position": "QB",
+      "age": 39,
+      "baseValue": 19,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-1737",
+      "name": "Case Keenum",
+      "team": "CHI",
+      "position": "QB",
+      "age": 37,
+      "baseValue": 19,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3202",
+      "name": "Austin Hooper",
+      "team": "NE",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 19,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4314",
+      "name": "Johnny Mundt",
+      "team": "JAX",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 19,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-5409",
+      "name": "Tanner Hudson",
+      "team": "CIN",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 19,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-1408",
+      "name": "Le'Veon Bell",
+      "team": "TB",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-2306",
+      "name": "Jameis Winston",
+      "team": "NYG",
+      "position": "QB",
+      "age": 32,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 5,
+        "change30d": 15
+      }
+    },
+    {
+      "id": "wr-3634",
+      "name": "Kalif Raymond",
+      "team": "DET",
+      "position": "WR",
+      "age": 31,
+      "baseValue": 18,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-4454",
+      "name": "Kendrick Bourne",
+      "team": "SF",
+      "position": "WR",
+      "age": 30,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "wr-5086",
+      "name": "Marquez Valdes-Scantling",
+      "team": "PIT",
+      "position": "WR",
+      "age": 31,
+      "baseValue": 18,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-5133",
+      "name": "Tyler Conklin",
+      "team": "LAC",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 18,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "wr-5917",
+      "name": "Mecole Hardman",
+      "team": "BUF",
+      "position": "WR",
+      "age": 27,
+      "baseValue": 18,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "rb-6694",
+      "name": "D'Ernest Johnson",
+      "team": "NE",
+      "position": "RB",
+      "age": 29,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-7527",
+      "name": "Mac Jones",
+      "team": "SF",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "rb-8123",
+      "name": "Hassan Haskins",
+      "team": "LAC",
+      "position": "RB",
+      "age": 26,
+      "baseValue": 18,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "wr-8168",
+      "name": "Skyy Moore",
+      "team": "SF",
+      "position": "WR",
+      "age": 25,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 2,
+      "history": {
+        "change7d": -1,
+        "change30d": -8
+      }
+    },
+    {
+      "id": "te-8225",
+      "name": "Daniel Bellinger",
+      "team": "NYG",
+      "position": "TE",
+      "age": 25,
+      "baseValue": 18,
+      "receptionProfile": "medium",
+      "yearsToPeak": 1,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "qb-260",
+      "name": "Josh Johnson",
+      "team": "WAS",
+      "position": "QB",
+      "age": 39,
+      "baseValue": 17,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-812",
+      "name": "Lee Smith",
+      "team": "ATL",
+      "position": "TE",
+      "age": 34,
+      "baseValue": 17,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-1234",
+      "name": "Russell Wilson",
+      "team": "NYG",
+      "position": "QB",
+      "age": 37,
+      "baseValue": 17,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4189",
+      "name": "Eric Saubert",
+      "team": "SEA",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 17,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-5008",
+      "name": "Durham Smythe",
+      "team": "CHI",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 17,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-2359",
+      "name": "Ameer Abdullah",
+      "team": "IND",
+      "position": "RB",
+      "age": 32,
+      "baseValue": 16,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3239",
+      "name": "Bronson Kaufusi",
+      "team": "GB",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 16,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4054",
+      "name": "Mo Alie-Cox",
+      "team": "IND",
+      "position": "TE",
+      "age": 32,
+      "baseValue": 16,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4435",
+      "name": "Anthony Firkser",
+      "team": "DET",
+      "position": "TE",
+      "age": 30,
+      "baseValue": 16,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3258",
+      "name": "Nick Vannett",
+      "team": "LAR",
+      "position": "TE",
+      "age": 32,
+      "baseValue": 15,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "rb-4147",
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "position": "RB",
+      "age": 30,
+      "baseValue": 15,
+      "receptionProfile": "high",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-4381",
+      "name": "Taysom Hill",
+      "team": "NO",
+      "position": "TE",
+      "age": 35,
+      "baseValue": 15,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -5
+      }
+    },
+    {
+      "id": "rb-4718",
+      "name": "Dare Ogunbowale",
+      "team": "HOU",
+      "position": "RB",
+      "age": 31,
+      "baseValue": 15,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-5010",
+      "name": "Will Dissly",
+      "team": "LAC",
+      "position": "TE",
+      "age": 29,
+      "baseValue": 15,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "te-4602",
+      "name": "Robert Tonyan",
+      "team": "KC",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 14,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-1706",
+      "name": "Jack Doyle",
+      "team": "IND",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 13,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3048",
+      "name": "Chris Manhertz",
+      "team": "NYG",
+      "position": "TE",
+      "age": 33,
+      "baseValue": 13,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-3271",
+      "name": "Tyler Higbee",
+      "team": "LAR",
+      "position": "TE",
+      "age": 33,
+      "baseValue": 13,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-4443",
+      "name": "Pharaoh Brown",
+      "team": "ARI",
+      "position": "TE",
+      "age": 31,
+      "baseValue": 12,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-7083",
+      "name": "Tyler Huntley",
+      "team": "BAL",
+      "position": "QB",
+      "age": 27,
+      "baseValue": 12,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": 2
+      }
+    },
+    {
+      "id": "te-111",
+      "name": "Marcedes Lewis",
+      "team": "DEN",
+      "position": "TE",
+      "age": 41,
+      "baseValue": 11,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "te-1592",
+      "name": "Darren Fells",
+      "team": "TB",
+      "position": "TE",
+      "age": 35,
+      "baseValue": 11,
+      "receptionProfile": "high",
+      "yearsToPeak": 0
+    },
+    {
+      "id": "qb-3257",
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "age": 33,
+      "baseValue": 10,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": 0,
+        "change30d": -3
+      }
+    },
+    {
+      "id": "qb-4179",
+      "name": "Joshua Dobbs",
+      "team": "NE",
+      "position": "QB",
+      "age": 30,
+      "baseValue": 10,
+      "receptionProfile": "low",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -2,
+        "change30d": -10
+      }
+    },
+    {
+      "id": "qb-829",
+      "name": "Andy Dalton",
+      "team": "CAR",
+      "position": "QB",
+      "age": 38,
+      "baseValue": 8,
+      "receptionProfile": "medium",
+      "yearsToPeak": 0,
+      "history": {
+        "change7d": -1,
+        "change30d": -5
+      }
+    }
   ]
 }
