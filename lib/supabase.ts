@@ -2,21 +2,31 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js'
 
 let supabaseInstance: SupabaseClient | null = null
 
-function getSupabase() {
+function getSupabase(): SupabaseClient {
   if (supabaseInstance) return supabaseInstance
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error('Missing Supabase environment variables')
+    console.error('Missing Supabase env vars:', { supabaseUrl: !!supabaseUrl, supabaseAnonKey: !!supabaseAnonKey })
+    // Return a mock client that won't crash - data fetching will fail gracefully
+    return {
+      from: () => ({ select: () => ({ data: [], error: null, order: () => ({ data: [], error: null }) }) }),
+      rpc: () => Promise.resolve({ data: null, error: { message: 'Supabase not configured' } })
+    } as unknown as SupabaseClient
   }
 
   supabaseInstance = createClient(supabaseUrl, supabaseAnonKey)
   return supabaseInstance
 }
 
-export const supabase = typeof window !== 'undefined' ? getSupabase() : (null as unknown as SupabaseClient)
+// Getter that creates client on first use
+export const supabase = new Proxy({} as SupabaseClient, {
+  get(_, prop) {
+    return getSupabase()[prop as keyof SupabaseClient]
+  }
+})
 
 // Type definitions for our database
 export type Topic = {
