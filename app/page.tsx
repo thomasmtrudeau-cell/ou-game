@@ -141,6 +141,7 @@ export default function Home() {
       setTopics(result)
       setCurrentIndex(0)
     } catch (err) {
+      console.error('Fetch topics error:', err)
       setError(err instanceof Error ? err.message : 'Failed to load topics')
     } finally {
       setLoading(false)
